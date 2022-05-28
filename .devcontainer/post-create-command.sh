@@ -8,7 +8,7 @@ git config --global user.email "lorransouzaaguiar2010@gmail.com"
 git config --global alias.s "!git status -s" 
 git config --global alias.c "!git commit"
 git config --global alias.l "!git log --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'"
-npm i commitizen -g && npm i husky@4 -g && npm i
+yarn add commitizen -g && yarn add husky@4 -g && yarn
 
 
  
