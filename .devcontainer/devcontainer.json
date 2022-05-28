@@ -1,0 +1,14 @@
+{
+	"name": "app-express.js",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspace",
+	"settings": {
+		"js/ts.implicitProjectConfig.checkJs": true,
+	},
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+	],
+	"remoteUser": "node",
+	"postCreateCommand": "bash .devcontainer/post-create-command.sh"
+}

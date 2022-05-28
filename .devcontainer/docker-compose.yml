@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: mcr.microsoft.com/vscode/devcontainers/javascript-node:0-16-bullseye
+    container_name: app-express
+    volumes:
+      - ..:/workspace:cached
+    command: sleep infinity
